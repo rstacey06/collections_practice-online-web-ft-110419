@@ -24,6 +24,7 @@ def kesha_maker(array)
 end
 
 def fina_a(array)
-   array.find_all {|letter| letter[0] == "a"}
+    array.find_all do |word|
+    word[0] == "a"
   end
   
