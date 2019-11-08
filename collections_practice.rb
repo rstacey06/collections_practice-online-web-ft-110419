@@ -10,16 +10,6 @@ def sort_array_char_count(array)
   array.sort {|short, long| short.length <=> long.length}
 end
 
-def sort_array_char_count(array)
-  array.sort do |left, right|
-    left.length <=> right.length
-  end
-end
-
-
-
-
-
 def swap_elements(array)
   array[1], array[2] = array[2], array[1]
   return array 
@@ -35,4 +25,4 @@ end
 
 def fina_a(array)
   array.start_with? 
-end
+  
