@@ -24,11 +24,9 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-    array.find_all  {|word| word[0] == "a"}
+  array.find_all  {|word| word[0] == "a"}
   end
 
 def sum_array(array)
-  using inject method (long)
-      array.inject do |sum,x|
-       sum + x
+  array.inject do {|sum,x| sum + x}
       end
