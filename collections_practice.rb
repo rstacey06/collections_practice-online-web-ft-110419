@@ -22,3 +22,7 @@ end
 def kesha_maker(array)
   array.each {|letter| letter[2] = "$"}
 end
+
+def fina_a(array)
+  array.start_with? 
+end
